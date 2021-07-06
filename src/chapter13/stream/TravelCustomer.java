@@ -4,9 +4,9 @@ package chapter13.stream;
 
 public class TravelCustomer {
 
-	private String name;   //ÀÌ¸§
-	private int age;       //³ªÀÌ
-	private int price;     //°¡°Ý
+	private String name;   
+	private int age;   
+	private int price; 
 	
 	public TravelCustomer(String name, int age, int price) {
 		this.name = name;
