@@ -6,15 +6,17 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class FileInputStreamTest02 {
+public class FileInputStreamTest2 {
 
 	public static void main(String[] args) {
 		
-		try(FileInputStream fis = new FileInputStream("input.txt")){ 
+		try(FileInputStream fis 
+				= new FileInputStream("C:\\DevTools\\WorkSpace_G\\DoItJava_study\\src\\chapter15\\input.txt")){ 
 			int i;
 			while ( (i = fis.read()) != -1){
-				System.out.println((char)i);
+				System.out.print((char)i + "\t \n");
 			}
+			System.out.println("=======");
 			System.out.println("end");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

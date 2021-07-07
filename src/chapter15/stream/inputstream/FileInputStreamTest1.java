@@ -5,14 +5,14 @@ package chapter15.stream.inputstream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
-public class FileInputStreamTest01 {
+public class FileInputStreamTest1 {
 
 	public static void main(String[] args) {
 		
 		FileInputStream fis = null;
 		
 		try {
-			fis = new FileInputStream("input.txt");
+			fis = new FileInputStream("C:\\DevTools\\WorkSpace_G\\DoItJava_study\\src\\chapter15\\input2.txt");
 			System.out.println(fis.read());
 			System.out.println(fis.read());
 			System.out.println(fis.read());
